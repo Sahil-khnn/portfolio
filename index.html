@@ -379,17 +379,18 @@
             <div class="book-appointment">
                 <h2>Personal Details</h2>
                 <div class="book-agileinfo-form">
-                    <form action="#" method="post">
+                    <form action="#" method="post" id="contactForm">
+                        <div class="alert">Reservation Booked Successfully</div>
                         <div class="main-agile-sectns">
                             <div class="agileits-btm-spc form-text1">
-                                <input type="text" name="Name" placeholder="Full Name" required="">
+                                <input type="text" name="Name" id="namee" placeholder="Full Name" required="">
                             </div>
                             <div class="agileits-btm-spc form-text2">
-                                <input type="text" name="Phone no" placeholder="Phone number" required="">
+                                <input type="text" name="Phone no" id="phonee" placeholder="Phone number" required="">
                             </div>
                         </div>
                         <div class="agileits-btm-spc form-text">
-                            <input type="email" name="email" placeholder="Email" required="">
+                            <input type="email" name="email" id="emailid" placeholder="Email" required="">
                         </div>
                         <div class="clear"></div>
                         <h2 class="sub-head-w3ls">Booking Details</h2>
@@ -555,6 +556,9 @@
 
     <!--=============== MIXITUP JS ===============-->
     <script src=""></script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/firebase/7.14.1-0/firebase.js"></script>
+
 
     <!--=============== MAIN JS ===============-->
     <script src="assets/js/main.js"></script>

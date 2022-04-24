@@ -522,6 +522,21 @@ body.hide-scrolling {
   -ms-transition: 0.2s all ease;
 }
 
+
+.alert {
+  width: 100%;
+  padding: 10px 10px;
+  background: rgb(5, 185, 95);
+  color: white;
+  text-align: center;
+  font-weight: 500;
+  font-size: 1rem;
+  border-radius: 5px;
+  letter-spacing: 0.05rem;
+  display: none;
+}
+
+
 /* 
 .left-agileits-w3layouts-img {
   box-sizing: border-box;
